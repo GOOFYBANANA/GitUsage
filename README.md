@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## 任政宇blog
+## Git 使用命令
 
-You can use the [editor on GitHub](https://github.com/GOOFYBANANA/GitUsage/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Git 文件上传库
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- **Git初始化**：`git init`
+- **初始化用户名**：`git config --global user.name '用户名'`
+- **初始化用户邮箱**：`git config --global user.name '邮箱'`
+- **克隆远程库到本地**：`git clone 远程库地址`
+- **文件上传到本地库**：
+  - 先上传到暂存区：`git add 文件名`
+  - 查看文件是否提交到暂存区:`git status`
+  - 从暂存区上传到本地库：`git commit -m '提交信息'`
+- **本地库文件上传到远程库**：`git push`
+- **本地库文件删除**：
+  - 删除本地库中文件：`rm -rf 文件名`
+  - 删除暂存区文件：`git rm 文件名`
+  - 确定删除：`git commit -m '删除信息'`
+- **修改本地库文件**：
+  - 修改文件：`vim 文件名`
+  - 提交到暂存区：`git add 文件名`
+  - 更新到本地库：`git commit -m '提交信息'`
 
-### Markdown
+### Git 搭建个人主页
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- **新建仓库：仓库名格式**：`用户名.github.io`
+- **创建`index.html`文件**
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GOOFYBANANA/GitUsage/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
