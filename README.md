@@ -1,18 +1,26 @@
-## 任政宇blog
+###### 
+
 ## Git 使用命令
+
+#### 任政宇blog
+
+ - ***邮箱*** : ren352601884@163.com
+ - ***qq*** : 352601884
 
 ### Git 文件上传库
 
 - **Git初始化**：`git init`
-
 - **初始化用户名**：`git config --global user.name '用户名'`
-
 - **初始化用户邮箱**：`git config --global user.name '邮箱'`
-
 - **克隆远程库到本地**：`git clone 远程库地址`
+
+![远程库地址](pic\5.png)
+
+![使用命令](pic\6.png)
 
 - **文件上传到本地库**：
   - 先上传到暂存区：`git add 文件名`
+
   - 查看文件是否提交到暂存区:`git status`
 
   - 从暂存区上传到本地库：`git commit -m '提交信息'`
