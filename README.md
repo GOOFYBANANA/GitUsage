@@ -21,8 +21,11 @@
   - 提交到暂存区：`git add 文件名`
   - 更新到本地库：`git commit -m '提交信息'`
 
-### Git 搭建个人主页
+### Git 搭建个人主页 
 
 - **新建仓库：仓库名格式**：`用户名.github.io`
-- **创建`index.html`文件**
+- ***创建***`README.md`***文件***
+- 点击***settings***
+
+![步骤图片](C:\Users\35260\Desktop\GitCommit\GitUsage\pic\1.png)
 
